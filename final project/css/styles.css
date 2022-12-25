@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+
+}
+
+main {
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+body nav {
+  justify-content: space-between;
+}
+
+#logo {
+  font-size: 3vh;
+  font-family: 'Teko', sans-serif;
+}
+
+main img {
+  width: 25vh;
+  border-radius: 10px;
+}
+
+#resume {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+}
+
+main button {
+  width: 25vh;
+  height: 5vh;
+  border-radius: 10px;
+}
+
+#info p {
+  text-align: start;
+}
+
+a {
+  color: white;
+}
+
+#icon {
+  width: 3vh;
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
+
+.education {
+  display: table-cell;
+  text-align: center;
+  padding: 1vh;
+  background-color: white;
+  height: 20vh;
+  width: 100vh;
+}
+
+.education #card {
+  display: table-cell;
+  vertical-align: middle;
+  height: 18vh;
+  width: 36%;
+  margin: 0;
+  border-radius: 5px;
+  background-color: black;
+  font-weight: 900;
+}
+
+#details {
+  display: table-cell;
+  vertical-align: middle;
+  align-self: flex-end;
+  width: 100vh;
+  height: 18vh;
+  background-color: white;
+}
+
+#details p {
+  color: black;
+  font-weight: 700;
+}
+#skills
+{
+  text-align: left;
+}
+.errormsgs{
+  display: inline-block;
+  color: red;
+  font-weight: bolder;
+}
