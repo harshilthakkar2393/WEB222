@@ -1,0 +1,15 @@
+/**
+ * Override any styles here that you want to change (optional)...
+ */
+/* refrence :https://andybrewer.github.io/mvp/#docs */
+:root {
+  --color-bg: #212121;
+  --color-link: #2962ff;
+  --color-text: #fff;
+  --font-family: "Source Code Pro", monospace;
+  --color-table: #2962ff;
+}
+
+header {
+  height: 15vh;
+}
